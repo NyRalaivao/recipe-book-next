@@ -1,0 +1,99 @@
+.container {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  min-height: 100vh;
+  background: #f6f4f1;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2a2620;
+  text-decoration: none;
+}
+
+.back:hover { text-decoration: underline; }
+
+.image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e8e3da;
+  padding: 1.5rem;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #5c5348;
+  background: #f0ebe3;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.duration {
+  font-size: 0.9rem;
+  color: #6b645a;
+}
+
+.title {
+  margin: 0 0 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 650;
+  margin: 1.25rem 0 0.75rem;
+  border-bottom: 1px solid #e8e3da;
+  padding-bottom: 0.4rem;
+}
+
+.ingredientList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ingredient {
+  background: #f0ebe3;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.stepList {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.step {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
